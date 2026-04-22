@@ -1,5 +1,5 @@
 # Lap-3-Des-socket
-bài làm trên lớp môn ATBMTT của duk tày 
+Bai Tap lab 3 cua Trieu Duk Tay
 DU AN MA HOA DES QUA SOCKET TCP
 1. Gioi thieu chung
 Day la do an trien khai viec truyen tin bao mat giua hai may tinh (Client-Server). Chuong trinh su dung thuat toan ma hoa doi xung DES (Data Encryption Standard) o che do CBC (Cipher Block Chaining) thong qua giao thuc Socket TCP trong ngon ngu Python.
