@@ -1,0 +1,13 @@
+PHAN TICH MOI DE DOA (THREAT MODEL) - LAB 3
+
+1. Tai san can bao ve (Assets):
+- Noi dung tin nhan goc (Plaintext).
+- Khoa giai ma DES (Key) va Vector khoi tao (IV).
+
+2. Cac moi de doa (Threats):
+- Nghe len (Sniffing): Ke tan cong su dung cong cu nhu Wireshark trong cung mang LAN de bat goi tin. Vi Key va IV duoc gui cong khai o dau goi tin, ke tan cong co the lay duoc chung de giai ma tin nhan.
+- Tan cong xen giua (Man-in-the-Middle): Ke tan cong thay doi noi dung ban ma hoac gia mao Header khien Receiver nhan sai du lieu hoac bi treo.
+
+3. Bien phap giam thieu (Mitigation):
+- Su dung ma hoa bat doi xung (RSA) de trao doi khoa.
+- Trien khai giao thuc bao mat SSL/TLS cho Socket.
